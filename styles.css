@@ -1,0 +1,36 @@
+body {
+    font-family: arial;
+    text-align: center;
+}
+.tic-tac-toe-grid {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;   
+    justify-content: center;
+    
+}
+button {
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    outline: 0;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    align-items: center;
+    
+    /* Add this line to fix button movement on click */
+    
+}
+.row1, .row2, .row3 {
+    display: flex;
+    align-items: center;
+    
+}
